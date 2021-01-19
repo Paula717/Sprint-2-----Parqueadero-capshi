@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\PrincipalController;
+use App\Http\Controllers\parqueaderoController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,7 +13,13 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//controlador principal
+Route::get('/', [PrincipalController::class,'prin']); //Ruta /
+Route::get('servicios', [PrincipalController::class,'servicios']); //Ruta servicios
+Route::get('contactos', [PrincipalController::class,'contacto']); //Ruta contactos
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//controlador parqueadero
+Route::get('parqueadero/consultar', [parqueaderoController::class,'consultar']); //Ruta parqueadero/consultar
+Route::get('parqueadero/listar', [parqueaderoController::class,'listar']); //Ruta parqueadero/listar
+Route::get('parqueadero/registro', [parqueaderoController::class,'registrar'])->name('formulario');//Ruta registrar
+Route::post('registro', [parqueaderoController::class, 'mensaje'])->name('registroCli');//Ruta mensaje
