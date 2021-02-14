@@ -18,8 +18,7 @@ class VehiculoSeeder extends Seeder
             [
                 'placa' => 'CZR263',
                 'cliente_id' => 3,
-                'registro_id' => 1,
-                'vehiculo_id' => 1,
+                'tarifa_id' => 1,
                 'marca_veh' => 'Mercedes-Benz',
                 'color_veh' => 'Negro'
             ],
@@ -27,8 +26,7 @@ class VehiculoSeeder extends Seeder
             [
                 'placa' => 'P1027',
                 'cliente_id' => 1,
-                'registro_id' => 3,
-                'vehiculo_id' => 3,
+                'tarifa_id' => 3,
                 'marca_veh' => 'ABUS',
                 'color_veh' => 'Rojo'
             ],
@@ -36,8 +34,7 @@ class VehiculoSeeder extends Seeder
             [
                 'placa' => 'DPZ723',
                 'cliente_id' => 5,
-                'registro_id' => 2,
-                'vehiculo_id' => 2,
+                'tarifa_id' => 2,
                 'marca_veh' => 'Kawasaki',
                 'color_veh' => 'Blanco'
             ],
@@ -45,8 +42,7 @@ class VehiculoSeeder extends Seeder
             [
                 'placa' => 'WHI000',
                 'cliente_id' => 4,
-                'registro_id' => 5,
-                'vehiculo_id' => 1,
+                'tarifa_id' => 1,
                 'marca_veh' => 'Volvo',
                 'color_veh' => 'Gris'
             ],
@@ -54,8 +50,7 @@ class VehiculoSeeder extends Seeder
             [
                 'placa' => 'GTQ07D',
                 'cliente_id' => 2,
-                'registro_id' => 3,
-                'vehiculo_id' => 2,
+                'tarifa_id' => 2,
                 'marca_veh' => 'Ducati',
                 'color_veh' => 'Gris'
             ]

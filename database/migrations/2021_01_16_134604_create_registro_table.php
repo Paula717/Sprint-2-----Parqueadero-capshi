@@ -15,6 +15,8 @@ class CreateRegistroTable extends Migration
     {
         Schema::create('registro', function (Blueprint $table) {
             $table->id();
+            $table->bigInteger('vehiculo_id')->unsigned();
+            $table->foreign('vehiculo_id')->references('id')->on('vehiculo');
             $table->bigInteger('empleado_id')->unsigned();
             $table->foreign('empleado_id')->references('id')->on('empleado');
             $table->bigInteger('pago_id')->unsigned();

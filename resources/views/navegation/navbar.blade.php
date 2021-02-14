@@ -1,6 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-<img src="https://i.ibb.co/2gxDQMZ/CAPSHI-free-file.png"  alt="..." >
+<nav class="navbar navbar-expand-lg navbar-light bg-light" >
 
     <div class="container" >
     
@@ -16,12 +14,45 @@
                     <body>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <font size=4 face="Comic Sans MS,arial,verdana">🚘 Parqueadero</font>
+                            <font size=4 face="Comic Sans MS,arial,verdana">👫 Cliente</font>
                             </a>
                             <div class="dropdown-menu " aria-labelledby="dropdownMenuBoton">
-                                <a class="dropdown-item" href="{{url('/parqueadero/registro')}}"><font size=4 face="Comic Sans MS,arial,verdana">Registrar</font></a>
-                                <a class="dropdown-item" href="{{url('/parqueadero/consultar')}}"><font size=4 face="Comic Sans MS,arial,verdana">Consultar</font></a>
-                                <a class="dropdown-item" href="{{url('/parqueadero/listar')}}"><font size=4 face="Comic Sans MS,arial,verdana">Listar</font></a>
+                                <a class="dropdown-item" href="{{url('/parqueadero/registro-cliente')}}"><font size=4 face="Comic Sans MS,arial,verdana">Registrar </font></a>
+                                <a class="dropdown-item" href="{{url('/parqueadero/listar-cliente')}}"><font size=4 face="Comic Sans MS,arial,verdana">Listar </font></a>
+                                <a class="dropdown-item" href="{{url('/parqueadero/consultar-cliente')}}"><font size=4 face="Comic Sans MS,arial,verdana">Consultar</font></a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <font size=4 face="Comic Sans MS,arial,verdana">🚘 Vehiculo</font>
+                            </a>
+                            <div class="dropdown-menu " aria-labelledby="dropdownMenuBoton">
+                                
+                                <a class="dropdown-item" href="{{url('/parqueadero/registro-vehiculo')}}"><font size=4 face="Comic Sans MS,arial,verdana">Registrar </font></a>
+                                <a class="dropdown-item" href="{{url('/parqueadero/listar-vehiculo')}}"><font size=4 face="Comic Sans MS,arial,verdana">Listar </font></a>
+                                <a class="dropdown-item" href="{{url('/parqueadero/consultar-vehiculo')}}"><font size=4 face="Comic Sans MS,arial,verdana">Consultar</font></a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <font size=4 face="Comic Sans MS,arial,verdana">💰 Ingreso</font>
+                            </a>
+                            <div class="dropdown-menu " aria-labelledby="dropdownMenuBoton">
+                                <a class="dropdown-item" href="{{url('/parqueadero/registro-ingreso')}}"><font size=4 face="Comic Sans MS,arial,verdana">Registrar</font></a>
+                                <a class="dropdown-item" href="{{url('/parqueadero/listar-ingreso')}}"><font size=4 face="Comic Sans MS,arial,verdana">Listar</font></a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <font size=4 face="Comic Sans MS,arial,verdana">👮 Empleado</font>
+                            </a>
+                            <div class="dropdown-menu " aria-labelledby="dropdownMenuBoton">
+                                <a class="dropdown-item" href="{{url('/parqueadero/registro-empleado')}}"><font size=4 face="Comic Sans MS,arial,verdana">Registrar</font></a>
+                                <a class="dropdown-item" href="{{url('/parqueadero/listar-empleado')}}"><font size=4 face="Comic Sans MS,arial,verdana">Listar</font></a>
+                                <a class="dropdown-item" href="{{url('/parqueadero/consultar-empleado')}}"><font size=4 face="Comic Sans MS,arial,verdana">Consultar</font></a>
                             </div>
                         </li>
 

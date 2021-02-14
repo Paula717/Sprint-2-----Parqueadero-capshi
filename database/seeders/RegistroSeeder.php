@@ -16,6 +16,7 @@ class RegistroSeeder extends Seeder
     {
         $registro = [
             [
+                'vehiculo_id' => 1,
                 'empleado_id' => 1,
                 'pago_id' => 1,
                 'entrada' => '2021-01-16',
@@ -24,6 +25,7 @@ class RegistroSeeder extends Seeder
             ],
 
             [
+                'vehiculo_id' => 3,
                 'empleado_id' => 1,
                 'pago_id' => 3,
                 'entrada' => '2021-01-11',
@@ -32,6 +34,7 @@ class RegistroSeeder extends Seeder
             ],
 
             [
+                'vehiculo_id' => 2,
                 'empleado_id' => 2,
                 'pago_id' => 1,
                 'entrada' => '2020-12-31',
@@ -40,6 +43,7 @@ class RegistroSeeder extends Seeder
             ],
 
             [
+                'vehiculo_id' => 5,
                 'empleado_id' => 2,
                 'pago_id' => 1,
                 'entrada' => '2021-01-04',
@@ -48,6 +52,7 @@ class RegistroSeeder extends Seeder
             ],
 
             [
+                'vehiculo_id' => 3,
                 'empleado_id' => 1,
                 'pago_id' => 3,
                 'entrada' => '2020-12-24',

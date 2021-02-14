@@ -76,13 +76,7 @@
             <img src="https://i.ibb.co/2ZNZQvY/p3-0.jpg" class="card-img" alt="...">
         </div>
 
-        <br>
-
-        <div >
-            <img src="https://i.ibb.co/4YYy7PM/3.jpg" class="card-img" alt="...">
-        </div>
-
-        <br>
-
+        <br> 
         
     @stop
+    
